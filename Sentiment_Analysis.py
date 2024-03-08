@@ -16,7 +16,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("https://c4.wallpaperflare.com/wallpaper/215/545/101/sentimental-wallpaper-preview.jpg");
+        background-image: url("https://t3.ftcdn.net/jpg/07/27/45/88/360_F_727458823_OUK5bNdtNwRhHs4pdLcHdjav2CZbJ7Z8.jpg");
         background-size: cover;
     }
     </style>
