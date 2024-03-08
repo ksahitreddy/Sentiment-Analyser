@@ -1,5 +1,3 @@
-# Save this code in a file, for example, app.py
-
 import streamlit as st
 import transformers
 from transformers import pipeline
@@ -11,7 +9,6 @@ def process_input(user_input):
 
 st.set_page_config(layout="wide")
 
-# Use local CSS to set the background image (using a URL)
 st.markdown(
     """
     <style>
@@ -24,15 +21,12 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Creating a simple Streamlit web app interface
 st.title('Sentiment Analyser')
 
-# Text input from the user
 user_input = st.text_input("Enter some text:")
 
-if user_input:  # Check if the user has entered something
-    # Process the input
+if user_input: 
+    
     output = process_input(user_input)
     
-    # Display the output
     st.write("Sentiment: "+output["label"])
