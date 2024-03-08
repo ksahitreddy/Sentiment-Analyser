@@ -5,7 +5,7 @@ import transformers
 from transformers import pipeline
 
 def process_input(user_input):
-    sentiment = pipeline("sentiment-analysis", model='openai-community/gpt2')
+    sentiment = pipeline("sentiment-analysis")
     result = sentiment(user_input)
     return result[0]
 
